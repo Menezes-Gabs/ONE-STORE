@@ -1,0 +1,36 @@
+body {
+  background: #0f172a;
+}
+
+.card img {
+  height: 160px;
+  object-fit: cover;
+}
+
+.card {
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 576px) {
+  .card img {
+    height: 120px;
+  }
+}
+
+#Combo-LEGO {
+  color: yellow;
+  background-color: black;
+
+  text-align: center;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #9ca3af; /* cinza */
+  font-size: 13px;
+}
